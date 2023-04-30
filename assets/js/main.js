@@ -262,6 +262,12 @@
     })
   });
 
+  var birthdate = new Date("February 19, 2001");
+  var ageDifMs = Date.now() - birthdate.getTime();
+  var ageDate = new Date(ageDifMs);
+  var age = Math.abs(ageDate.getUTCFullYear() - 1970);
+  document.getElementById("age").innerHTML = age;
+
   /**
    * Initiate Pure Counter 
    */
