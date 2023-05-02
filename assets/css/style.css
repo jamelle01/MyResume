@@ -349,6 +349,19 @@ h6 {
   }
 }
 
+.downloadcv {
+  margin-top: 30px;
+  display: inline-block;
+  border: 2px solid #1abb05;
+  padding: 14px 30px;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+.downloadcv:hover {
+  border: 2px solid #2aff0e;
+}
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -617,11 +630,13 @@ section {
   overflow: hidden;
   z-index: 1;
   background: rgba(69, 80, 91, 0.8);
+  text-shadow: 2px 2px 4px #ffffff;
+  color: #111;
 }
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(213, 255, 223, 0.7);
+  background: rgba(52, 201, 82, 0.7);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -801,8 +816,7 @@ section {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #d6fbcc;
-  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.089);
+  background: #d6ffcc;
 }
 
 .services .icon-box .icon {
@@ -853,6 +867,7 @@ section {
 .services .icon-box:hover {
   border-color: #fff;
   box-shadow: 0px 0 35px 0 rgba(42, 164, 1, 0.223);
+  background: #88fe6a;
 }
 
 .services .iconbox-blue i {
