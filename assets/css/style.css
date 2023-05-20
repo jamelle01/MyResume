@@ -354,13 +354,15 @@ h6 {
   display: inline-block;
   border: 2px solid #1abb05;
   padding: 14px 30px;
-  border-radius: 4px;
   transition: all 0.3s;
   border-radius: 50px;
 }
 
 .downloadcv:hover {
-  border: 2px solid #2aff0e;
+  /* border: 2px solid #2aff0e; */
+  /* font-weight: bold; */
+  background-color: #1abb05;
+  color: white;
 }
 
 /*--------------------------------------------------------------
