@@ -356,6 +356,7 @@ h6 {
   padding: 14px 30px;
   border-radius: 4px;
   transition: all 0.3s;
+  border-radius: 50px;
 }
 
 .downloadcv:hover {
