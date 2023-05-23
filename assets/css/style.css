@@ -287,7 +287,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(233, 255, 254, 0.774);
+  background: rgba(233, 255, 254, 0.7);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -634,8 +634,8 @@ section {
   overflow: hidden;
   z-index: 1;
   background: rgba(69, 80, 91, 0.8);
-  text-shadow: 2px 2px 4px #ffffff;
-  color: #111;
+  text-shadow: 2px 2px 4px #2c2c2c;
+  color: #fff;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -697,12 +697,12 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #45505b;
+  color: #ffffff;
   font-weight: 600;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #45505b;
+  color: #fff;
   font-size: 14px;
   text-transform: uppercase;
   padding: 0;
@@ -715,7 +715,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #45505b;
+  color: #fff;
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
