@@ -8,6 +8,8 @@
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
     <!-- Favicons -->
     <link href="assets/img/jt_logo.png" rel="icon" />
     <link href="assets/img/jt_logo.png" rel="apple-touch-icon" />
@@ -1250,26 +1252,22 @@
               </div>
             </div>
 
-            <iframe
+            <!-- <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSeRlE6vtBS6DVm0LL9Ff03XxtxaMv1JDrtujNlgvYJW97lHAw/viewform?embedded=true"
               class="col-lg-8 mt-5 mt-lg-0"
               height="300"
               >Loading…</iframe
-            >
+            > -->
 
             <!-- width="640"
               height="1035"
               frameborder="0"
               marginheight="0"
               marginwidth="0" -->
+            <!-- class="php-email-form" -->
 
-            <!-- <div class="col-lg-8 mt-5 mt-lg-0">
-              <form
-                action="forms/contact.php"
-                method="post"
-                role="form"
-                class="php-email-form"
-              >
+            <div class="col-lg-8 mt-5 mt-lg-0">
+              <form class="form-contact" action="#">
                 <div class="row">
                   <div class="col-md-6 form-group">
                     <input
@@ -1295,7 +1293,7 @@
                 <div class="form-group mt-3">
                   <input
                     type="text"
-                    class="form-control"
+                    class="form-control subject"
                     name="subject"
                     id="subject"
                     placeholder="Subject"
@@ -1304,6 +1302,7 @@
                 </div>
                 <div class="form-group mt-3">
                   <textarea
+                    id="message"
                     class="form-control"
                     name="message"
                     rows="5"
@@ -1312,17 +1311,17 @@
                   ></textarea>
                 </div>
                 <div class="my-3">
-                  <div class="loading">Loading</div>
+                  <div class="loading" style="display: none">Loading</div>
                   <div class="error-message"></div>
-                  <div class="sent-message">
+                  <div class="sent-message" style="display: none">
                     Your message has been sent. Thank you!
                   </div>
                 </div>
                 <div class="text-center">
-                  <button type="submit">Send Message</button>
+                  <input type="submit" value="Send Message" />
                 </div>
               </form>
-            </div> -->
+            </div>
           </div>
         </div>
       </section>
@@ -1395,7 +1394,8 @@
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/vendor/typed.js/typed.min.js"></script>
     <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/smtp/index.js"></script>
+    <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
