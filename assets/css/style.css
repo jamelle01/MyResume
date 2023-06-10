@@ -1143,7 +1143,7 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form input[type=submit] {
   background: #1abb05;
   border: 0;
   padding: 10px 35px;

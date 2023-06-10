@@ -507,7 +507,14 @@
                 </p>
                 <p></p>
                 <p>
-                  During my Senior High School years, I attended the prestigious Immaculate Mary Academy where I pursued the ICT(Information and Communications Technology) strand. It was in this educational pathway that I acquired valuable knowledge and skills that have been instrumental in shaping my career. The school provided a nurturing environment for learning and personal growth, and I am truly grateful for the enriching experience I had during those years.
+                  During my Senior High School years, I attended the prestigious
+                  Immaculate Mary Academy where I pursued the ICT(Information
+                  and Communications Technology) strand. It was in this
+                  educational pathway that I acquired valuable knowledge and
+                  skills that have been instrumental in shaping my career. The
+                  school provided a nurturing environment for learning and
+                  personal growth, and I am truly grateful for the enriching
+                  experience I had during those years.
                 </p>
               </div>
 
@@ -1274,13 +1281,13 @@
                 </div>
               </div>
             </div>
-
+            <!-- 
             <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSeRlE6vtBS6DVm0LL9Ff03XxtxaMv1JDrtujNlgvYJW97lHAw/viewform?embedded=true"
               class="col-lg-8 mt-5 mt-lg-0"
               height="300"
               >Loading…</iframe
-            >
+            > -->
 
             <!-- width="640"
               height="1035"
@@ -1288,10 +1295,8 @@
               marginheight="0"
               marginwidth="0" -->
 
-            <!-- <div class="col-lg-8 mt-5 mt-lg-0">
+            <div class="col-lg-8 mt-5 mt-lg-0">
               <form
-                action="forms/contact.php"
-                method="post"
                 role="form"
                 class="php-email-form"
               >
@@ -1333,6 +1338,7 @@
                     name="message"
                     rows="5"
                     placeholder="Message"
+                    id="message"
                     required
                   ></textarea>
                 </div>
@@ -1344,10 +1350,11 @@
                   </div>
                 </div>
                 <div class="text-center">
-                  <button type="submit">Send Message</button>
+                  <input type="submit" value="Send Message" />
+                  <!-- <button type="submit">Send Message</button> -->
                 </div>
               </form>
-            </div> -->
+            </div>
           </div>
         </div>
       </section>
@@ -1420,7 +1427,9 @@
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/vendor/typed.js/typed.min.js"></script>
     <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/smtpjs/index.js"></script>
+    
+    <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
