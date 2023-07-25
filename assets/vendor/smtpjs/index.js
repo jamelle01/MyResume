@@ -29,7 +29,7 @@ submit.addEventListener("submit", function (event) {
   Email.send({
     SecureToken: "dc0107b0-7bb2-49ed-86a1-0e5732186f42",
     To: "ellemarej123@gmail.com",
-    From: "ellemarej123@gmail.com",
+    From: "jeramelleanunciadotatad@gmail.com",
     Subject: email.value + " " + subject.value,
     Body: ebody,
   })
